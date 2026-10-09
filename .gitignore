@@ -1,0 +1,30 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package and build artifacts
+*.jar
+*.war
+*.ear
+bin/
+build/
+target/
+
+# VS Code workspace cache (keeps settings.json & launch.json tracked)
+.vscode/.ropeproject
+.vscode/tags
+
+# IntelliJ IDEA project files (if team members use it)
+.idea/
+*.iml
+out/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / local credential overrides
+*.env
