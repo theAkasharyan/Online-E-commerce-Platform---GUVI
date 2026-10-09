@@ -63,32 +63,52 @@ Before running the application locally, ensure you have the following installed:
 * [Visual Studio Code](https://code.visualstudio.com/) (with the Live Server extension)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) (for backend configuration)
 
-### Local Setup & Installation
+## Local Setup & Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/theAkasharyan/Online-E-commerce-Platform---GUVI.git
-   cd Online-E-commerce-Platform---GUVI
-   ```
-2. **Initialize the Database:**
-   Open MySQL Workbench or your terminal and execute:
-   ```bash
-   CREATE DATABASE ecommerce_db;
-   USE ecommerce_db;
-   CREATE TABLE users (
-   id INT AUTO_INCREMENT PRIMARY KEY,
-   name VARCHAR(100) NOT NULL,
-   email VARCHAR(100) UNIQUE NOT NULL,
-   password VARCHAR(255) NOT NULL,
-   role ENUM('BUYER', 'SELLER', 'ADMIN') NOT NULL,
-   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
-   ```
-3. **Run the Frontend (Development):** using Live Server extension.
-4. **Run the Backend(Server):***
-   * Open the repository in IntelliJ IDEA.
-   * Configure the local Apache Tomcat server to deploy the project artifact.
-   * Update database credentials in your JDBC connection properties.
-   * Start Tomcat and access the backend services at http://localhost:8080.
+### 1. Clone the repository
+```bash
+git clone [https://github.com/theAkasharyan/Online-E-commerce-Platform---GUVI.git](https://github.com/theAkasharyan/Online-E-commerce-Platform---GUVI.git)
+cd Online-E-commerce-Platform---GUVI
+```
+
+### 2. Start MySQL Server
+Run the startup script from the root folder (or start MySQL via your system services/XAMPP):
+```cmd
+start-mysql.bat
+```
+
+### 3. Initialize the Database
+Import the complete schema containing the `users`, `products`, `orders`, and dashboard tracking tables:
+* **Via Terminal:**
+  ```bash
+  mysql -u root -p < db/schema.sql
+  ```
+* **Via MySQL Workbench / phpMyAdmin:**
+  Open and execute `db/schema.sql` to generate `ecommerce_db` and all tables.
+
+### 4. Configure Database Credentials
+Open `db.properties` in the root folder and verify your local database settings:
+```properties
+db.url=jdbc:mysql://localhost:3306/ecommerce_db
+db.username=root
+db.password=your_mysql_password
+db.driver=com.mysql.cj.jdbc.Driver
+```
+
+### 5. Run the Frontend (UI Development)
+* Open the repository in **Visual Studio Code**.
+* Navigate to `src/main/webapp/` and right-click `buyer.html` or `admin-panel.html`.
+* Click **Open with Live Server** to preview and inspect the UI layout directly in your browser.
+
+### 6. Run the Backend (Server Deployment)
+* Open the repository in your IDE (**IntelliJ IDEA** or **VS Code** configured with the Java Extension Pack).
+* Ensure `.jar` libraries in the `lib/` folder (`jakarta.servlet-api`, `mysql-connector-j`) are linked to the classpath.
+* Configure a local **Apache Tomcat 10+** server instance.
+* Deploy the project artifact and start the server.
+* Access the web application at:
+  ```
+  http://localhost:8080/
+  ```
 
 ## 💡 Usage
 
