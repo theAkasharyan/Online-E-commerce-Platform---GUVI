@@ -1,4 +1,4 @@
-## Modular Breakdown & Folder Structure
+## Modular Breakdown & Final Folder Structure
 
 ```
 ecommerce-platform/
@@ -33,7 +33,6 @@ ecommerce-platform/
 │       └── buyer-dashboard.jsp
 ├── .gitignore             # Prevents committing compiled .class files or local logs
 ├── README.md              # Setup instructions for your team and evaluators
-├── REVIEW1_PLAN.md        # Academic review planning, milestones, and frontend/backend role assignments
 ├── db.properties          # Stores your database URL, username, and password securely outside the Java code
 └── start-mysql.bat        # A quick batch script to start the local MySQL server before running the app
 ```
