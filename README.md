@@ -118,6 +118,12 @@ db.driver=com.mysql.cj.jdbc.Driver
 
 ## 👥 Contributors:
 
-<a href="https://github.com/theAkasharyan/Online-E-commerce-Platform---GUVI/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=theAkasharyan/Online-E-commerce-Platform---GUVI" alt="Contributors" />
+<a href="https://github.com/theAkasharyan">
+  <img src="https://wsrv.nl/?url=github.com/theAkasharyan.png&w=60&h=60&fit=cover&mask=circle" alt="Akash" />
+</a>
+<a href="https://github.com/ShashwatSuryavanshi07">
+  <img src="https://wsrv.nl/?url=github.com/ShashwatSuryavanshi07.png&w=60&h=60&fit=cover&mask=circle" alt="Shashwat" />
+</a>
+<a href="https://github.com/adityakumar210607-design">
+  <img src="https://wsrv.nl/?url=github.com/adityakumar210607-design.png&w=60&h=60&fit=cover&mask=circle" alt="Aditya" />
 </a>
