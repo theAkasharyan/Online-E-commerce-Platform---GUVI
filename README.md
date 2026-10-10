@@ -110,7 +110,7 @@ db.driver=com.mysql.cj.jdbc.Driver
   http://localhost:8080/
   ```
 
-## 💡 Usage
+## 💡 Usage:
 
 * **Buyer Module**: Browse active listings, search through items, inspect cart contents, and manage account details.
 * **Seller Module**: Review product inventory numbers, monitor out-of-stock notices, and inspect sales trends.
