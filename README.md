@@ -74,27 +74,25 @@ ecommerce-app/
 
 ## 🗄️ Database Setup (`schema.sql`)
 
-### 1. Execute SQL Script in MySQL
-Open your terminal / command prompt or MySQL Workbench and run:
+Choose one of the following methods to create and seed the database:
 
-```bash
-# If running from MySQL CLI:
-mysql -u root -p < "d:/C++ language practice/GU/class/ecommerce-app/schema.sql"
-```
+#### Method A: Using MySQL Workbench (GUI)
+1. Open **MySQL Workbench** and connect to your local MySQL instance.
+2. In the top navigation bar, go to **File** $\rightarrow$ **Open SQL Script...**
+3. Select the `schema.sql` file located in the root of the project directory.
+4. Click the yellow lightning bolt icon (⚡) or press `Ctrl + Shift + Enter` to execute the entire script.
+5. In the left **Navigator** pane, right-click and click **Refresh All**. Verify that the database `ecommerce_db` appears with all 5 tables:
+   * `users`
+   * `categories`
+   * `products`
+   * `orders`
+   * `order_items`
 
-Or log in to MySQL:
-```sql
-SOURCE d:/C++ language practice/GU/class/ecommerce-app/schema.sql;
-```
-
-This creates the database `ecommerce_db` and initializes 5 relational tables:
-1. `users` (id, name, email, password, phone, address, role, created_at)
-2. `categories` (id, name, description, image_url)
-3. `products` (id, name, description, price, stock, category_id, image_url, created_at, updated_at)
-4. `orders` (id, user_id, total_amount, shipping_address, phone, payment_method, order_status, created_at)
-5. `order_items` (id, order_id, product_id, quantity, unit_price)
-
-Pre-loaded with 4 categories, 10 products, and 2 accounts.
+#### Method B: Using Terminal / Command Prompt (CLI)
+1. Open your terminal or Command Prompt.
+2. Navigate into the root of the project directory:
+   ```bash
+   cd path/to/ecommerce-app
 
 ---
 
