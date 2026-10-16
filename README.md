@@ -192,28 +192,16 @@ Database Product Version: 8.0.x
 
   ## 👥 Contributors
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/theAkasharyan">
-        <img src="https://github.com/theAkasharyan.png?size=100" width="100px;" alt="Akash Aryan"/><br />
-        <sub><b>Akash Aryan</b></sub>
-      </a><br />
-      <sub>@theAkasharyan</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/adityakumar210607-design">
-        <img src="https://github.com/adityakumar210607-design.png?size=100" width="100px;" alt="Aditya Kumar"/><br />
-        <sub><b>Aditya Kumar</b></sub>
-      </a><br />
-      <sub>@adityakumar210607-design</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/ShashwatSuryavanshi07">
-        <img src="https://github.com/ShashwatSuryavanshi07.png?size=100" width="100px;" alt="Shashwat Suryavanshi"/><br />
-        <sub><b>Shashwat Suryavanshi</b></sub>
-      </a><br />
-      <sub>@ShashwatSuryavanshi07</sub>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <a href="https://github.com/theAkasharyan">
+    <img src="https://images.weserv.nl/?url=github.com/theAkasharyan.png&w=50&h=50&fit=cover&mask=circle" width="50" height="50" alt="Akash Aryan" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/adityakumar210607-design">
+    <img src="https://images.weserv.nl/?url=github.com/adityakumar210607-design.png&w=50&h=50&fit=cover&mask=circle" width="50" height="50" alt="Aditya Kumar" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/ShashwatSuryavanshi07">
+    <img src="https://images.weserv.nl/?url=github.com/ShashwatSuryavanshi07.png&w=50&h=50&fit=cover&mask=circle" width="50" height="50" alt="Shashwat Suryavanshi" />
+  </a>
+</p>
