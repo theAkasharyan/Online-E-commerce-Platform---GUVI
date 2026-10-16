@@ -3,7 +3,7 @@
 A full-featured, responsive E-Commerce web application built using **Java Servlets**, **JDBC**, **MySQL**, and **Bootstrap 5**. The application follows the standard **MVC (Model-View-Controller)** and **DAO (Data Access Object)** architectural patterns.
 
 ---
-
+cgtcdt
 ## 📁 Project Structure
 
 ```text
